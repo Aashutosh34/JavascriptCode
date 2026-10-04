@@ -17,7 +17,7 @@ console.log(f1);
 
 console.log('------------------------------------');
 
-let browser = function (browserName) {                  //annonymous function
+let initDriver = function (browserName) {                  //annonymous function
     console.log(`Browser name is:${browserName}`);
 
     switch (browserName.trim().toLowerCase()) {
@@ -43,7 +43,7 @@ let browser = function (browserName) {                  //annonymous function
 //How to call this function??
 //will call this function using initialize the driver.
 
-let isInit = initDriver('chrome');
+let isInit = initDriver('chrome');   //if this chrome will find above then this below loop will be run.
 if (isInit) {
     console.log('Enter the URL:google.com');
 }

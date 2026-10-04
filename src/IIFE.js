@@ -40,3 +40,10 @@ console.log('---------------------------------------------');
     console.log('Hello Amit');
 })();
 //Multiple IIFE function we can have in same file without any issue.
+
+
+(
+    function () {
+        console.log('Hello world virtual');
+    }
+)();
