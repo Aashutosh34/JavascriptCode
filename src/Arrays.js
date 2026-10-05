@@ -1,3 +1,50 @@
+//collection of the different/similler type of data in javascript
+let i = 10;
+let j = 20;
+let k = 30;
+
+//instead of this we will use array.
+let num = [10, 20, 30, 40];    //The memory of 'num' will converted into 4 equal parts, values will be stored in the basis of index and index starts from '0'.
+console.log(num[0]);                         //hightest index=length-1   //length = 4 here
+console.log(num[4]);
+console.log(num[-1]);  //undefined, lowest index is always 0.
+console.log("Length=" + num.length);
+console.log("lowest index=" + 0);
+console.log("highest index=" + (num.length - 1));
+num[4] = 50;
+console.log(num);
+console.log("Length=" + num.length);
+console.log("lowest index=" + 0);
+console.log("highest index=" + (num.length - 1));    //in javascript Arrays are always dynamic.
+
+num[10] = 100;
+console.log(num);
+console.log("Length=" + num.length);
+console.log("lowest index=" + 0);
+console.log("highest index=" + (num.length - 1));
+console.log(num[5]);
+console.log(num[8]);   //undefined
+console.log(num[10]);
+
+num[8] = 800;
+console.log(num);       //Arrays are always dynamic in javascript, Size will increase automatically when we added values.
+
+console.log("----------------------------");
+
+let stuName = ['Amit', 'Nikhil', 'Sagar'];
+console.log(stuName);
+stuName[1] = 'Akshay';
+console.log(stuName);
+
+console.log("----------------------------");
+
+let employee = ['Amit', 171, 31, 'Lonand,Satara', true];
+console.log(employee);
+
+
+
+
+
 const x = [10, 20, 30];
 x[0] = 500;
 //console.log(x);  //const in applicable only for normal variable not for Array.
