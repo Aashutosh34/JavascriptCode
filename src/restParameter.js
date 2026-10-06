@@ -29,3 +29,5 @@ function fillvalues(...details) {
 
 fillvalues('Amit', 210, 'Lonand', 31, 'Associate Software Tester');
 //details will take all these values becz of ...
+
+

@@ -9,3 +9,5 @@ login('Amit34', 'Amit@1234', 'inActive');   //here problem is 3rd parameter is a
 //So this is the problem. So to overcome this we need to provide null if dont want to provide anything.
 login('Amit34', 'Amit@1234', null, 'inActive');   //role=null as per the parameter.
 
+
+

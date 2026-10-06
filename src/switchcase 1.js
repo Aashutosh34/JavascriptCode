@@ -1,6 +1,6 @@
 let browser = "safari";
 
-switch (browser) {    //we are giving here 'key' and here key = 'browser' at line no 3. decision will be taken that do i have a case where browser=chrome.
+switch (browser) {    //we are giving here 'key' and here key = 'browser' at line no 3. decision will be taken that do I have a case where browser=chrome.
 
     case 'chrome':    //it will check now do I have case(chrome) available? 
         console.log('Launch chrome');
