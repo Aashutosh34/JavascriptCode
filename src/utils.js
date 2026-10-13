@@ -1,7 +1,7 @@
-export let name='Tom';
+export let name = 'Tom';
 
-export function add(a,b){
-    return a+b;
+export function add(a, b) {
+    return a + b;
 
 }
 
@@ -16,19 +16,27 @@ export function add(a,b){
 
 
 
-export function test(){
+export function test() {
     console.log('Test 001');
 }
 
 
-// export{name,add,test};  we can export like this also.
+// export{name,add,test};  ***we can export like this also; if we have manu function,variable***
 
 
-export default function print(){
+export default function print() {
     console.log('Print ABC');
 }
 //In javascript we can use only one default function.
 
 // export default function print1(){  
-//     console.log('Print ABC');        //duplicate default function is not allowed.
+//   console.log('Print ABC');        //duplicate default function is not allowed.
 // }
+
+
+export let user = {
+    name: 'Amit'
+}
+
+
+export let addTwoNum = (a, b) => a + b;
